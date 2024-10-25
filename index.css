@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.main {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    border: 1px solid darkcyan;
+    gap: 20px;
+}
+
+
+
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+
+    background-color: antiquewhite;
+    color: black;
+    font-size: 62px;
+}
+
+.blue {
+
+    background-color: rgb(55, 135, 182);
+}
+
+.green {
+
+    background-color: rgb(0, 255, 85);
+}
+
+.red {
+
+    background-color: indianred;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* .size-s {
+    width: 30px;
+    height: 30px;
+}
+
+.size-m {
+    width: 40px;
+    height: 40px;
+} */
